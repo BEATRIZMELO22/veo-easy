@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A revolução da criação de vídeos com inteligência artificial. Veo Easy está chegando!">
+  <meta property="og:title" content="Veo Easy - IA para Vídeos">
+  <meta property="og:description" content="A revolução da criação de vídeos com inteligência artificial. Veo Easy está chegando!">
+  <meta property="og:image" content="veoeasy_preview.png">
+  <meta property="og:url" content="https://veoeasy.com.br">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Veo Easy - IA para Vídeos">
+  <meta name="twitter:description" content="A revolução da criação de vídeos com inteligência artificial. Veo Easy está chegando!">
+  <meta name="twitter:image" content="veoeasy_preview.png">
+  <title>Veo Easy</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #000;
+      background-image: url('veoeasy_preview.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 2px 5px #000;
+    }
+
+    p {
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+      max-width: 600px;
+      color: #ccc;
+      padding: 0 1rem;
+      text-shadow: 0 1px 3px #000;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-bottom: 4rem;
+    }
+
+    .btn {
+      background: transparent;
+      border: 2px solid #00ffcc;
+      color: #00ffcc;
+      padding: 0.8rem 1.6rem;
+      font-size: 0.95rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #00ffcc;
+      color: #000;
+    }
+
+    #prova-social {
+      background-color: rgba(0,0,0,0.7);
+      padding: 60px 20px;
+      width: 100%;
+    }
+
+    #prova-social h2 {
+      color: #00f2ff;
+      margin-bottom: 40px;
+    }
+
+    .avaliacoes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .depoimento {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 300px;
+      color: #f5f5f5;
+      font-style: italic;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    #beneficios {
+      background-color: #111;
+      padding: 60px 20px;
+      width: 100%;
+    }
+
+    #beneficios h2 {
+      color: #00f2ff;
+      margin-bottom: 40px;
+    }
+
+    .cards-beneficio {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      padding: 30px;
+      border-radius: 12px;
+      width: 280px;
+      color: #f5f5f5;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+
+    .card img {
+      width: 64px;
+      margin-bottom: 15px;
+    }
+
+    #cta-final {
+      background-color: #000;
+      padding: 80px 20px;
+      text-align: center;
+      border-top: 2px solid #00f2ff;
+    }
+
+    #cta-final h2 {
+      font-size: 2rem;
+      color: #00f2ff;
+      margin-bottom: 20px;
+    }
+
+    #cta-final p {
+      font-size: 1rem;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+
+    .cta-botoes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .btn-cta {
+      display: inline-block;
+      background-color: #00f2ff;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .btn-cta:hover {
+      background-color: #00c4d6;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.2rem;
+      }
+      p {
+        font-size: 0.85rem;
+      }
+      .buttons {
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+      .btn {
+        width: 100%;
+        max-width: 300px;
+      }
+      .btn-cta {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Estamos preparando algo incrível.</h1>
+  <p>Em breve, o futuro da produção audiovisual estará ao seu alcance.</p>
+
+  <div class="buttons">
+    <a class="btn" href="https://wa.me/5551981280294" target="_blank">Fale conosco no WhatsApp</a>
+    <a class="btn" href="#" onclick="alert('Vídeo ainda não disponível. Em breve!')">Assista ao vídeo</a>
+  </div>
+
+  <!-- Seção Prova Social -->
+  <section id="prova-social">
+    <h2>Quem já usa o Veo Easy?</h2>
+    <div class="avaliacoes">
+      <div class="depoimento">
+        <p>"Economizei mais de 70% dos meus créditos em uma semana!"</p>
+        <span>— Lucas R., criador de conteúdo</span>
+      </div>
+      <div class="depoimento">
+        <p>"Agora os vídeos da minha loja estão profissionais. E rápidos!"</p>
+        <span>— Aline M., empreendedora</span>
+      </div>
+      <div class="depoimento">
+        <p>"É como ter um engenheiro de prompt no bolso."</p>
+        <span>— Thiago V., freelancer</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Benefícios -->
+  <section id="beneficios">
+    <h2>Por que escolher o Veo Easy?</h2>
+    <div class="cards-beneficio">
+      <div class="card">
+        <img src="assets/img/icon1.png" alt="Ícone economia" />
+        <h3>Economia Real</h3>
+        <p>Até 80% menos desperdício de créditos nas IAs de vídeo.</p>
+      </div>
+      <div class="card">
+        <img src="assets/img/icon2.png" alt="Ícone facilidade" />
+        <h3>Extremamente Fácil</h3>
+        <p>Você só responde perguntas simples. O prompt vem pronto.</p>
+      </div>
+      <div class="card">
+        <img src="assets/img/icon3.png" alt="Ícone compatibilidade" />
+        <h3>Compatível com Veo, Runway e mais</h3>
+        <p>Serve para qualquer IA de vídeo de ponta.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Final com CTA para os 2 GPTs -->
+  <section id="cta-final">
+    <h2>Escolha seu assistente de criação com IA</h2>
+    <p>Ative agora um dos nossos GPTs prontos para criar vídeos hiper-realistas com prompts profissionais.</p>
+    <div class="cta-botoes">
+      <a class="btn-cta" href="https://chatgpt.com/g/g-685aab58a5f881918dbf507dcba7e761-veo-easy-cam" target="_blank">Ativar Veo Easy Cam</a>
+      <a class="btn-cta" href="https://chatgpt.com/g/g-685d46250e5c819182845d47d42a654f-vinhetor" target="_blank">Ativar VinheTor</a>
+    </div>
+  </section>
+
+</body>
+</html>
